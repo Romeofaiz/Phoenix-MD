@@ -31,7 +31,7 @@ Description : ${i.desc}\`\`\``
       let currentTime = new Date();
       let runtime = clockString(currentTime - botStartTime);
 
-      let menu = `╭───❮ *${BOT_NAME}* ❯
+      let menu = `╭───❮ *${𝐑𝐎𝐌𝐄𝐊-𝐗𝐃}* ❯
 │ *ᴏᴡɴᴇʀ* :  ${OWNER_NAME}
 │ *ᴘʀᴇғɪx* : ${prefix}
 │ *ᴘʟᴀᴛғᴏʀᴍ* : ${hostname().split("-")[0]}
@@ -73,7 +73,7 @@ Description : ${i.desc}\`\`\``
 
       menu += ``;
       return await message.client.sendMessage(message.jid, {
-        image: { url: `https://i.ibb.co/tHWJrz3/IMG-20231128-WA0005.jpg` },
+        image: { url: `https://i.ibb.co/jHx3jhg/enhanced-image-4.png` },
         caption: tiny(menu),
         footer: tiny(
           `Phoenix-MD\nVersion : ${require("../package.json").version}`
